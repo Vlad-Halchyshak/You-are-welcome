@@ -1,0 +1,352 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #222222
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100px;
+  clear: both;
+}
+
+
+
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(./../img/first-bg.jpg) no-repeat center top / cover;
+  height: 700px;
+
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+
+
+
+}
+
+.logo {
+  margin-top: 41px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.titles__first {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 75px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+
+}
+
+.button {
+  background: #fed136;
+  color: #484543;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 160px;
+}
+
+.title {
+  padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.services {
+  margin-top: 60px;
+}
+
+.services__item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services__item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.services__item p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+
+.services__item:last-child {
+  float: right;
+}
+
+.services__item:nth-child(2) {
+  margin-left: 60px;
+}
+
+#services {
+  padding-bottom: 120px;
+}
+
+
+#portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.works {
+  margin-top: 70px;
+}
+
+.works img {
+  float: left;
+}
+
+.works img:nth-child(2) {
+  margin-left: 29px;
+}
+
+.works img:last-child {
+  float: right;
+
+}
+
+
+
+
+.title2 {
+  padding-top: 115px;
+
+}
+
+
+.title2 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+
+}
+
+.title2 p {
+  font-size: 16px;
+  line-height: 1.55em;
+  color: #777777;
+  text-align: center;
+  margin-top: 0;
+}
+
+.information {
+  margin-top: 85px;
+}
+
+.information__items {
+  width: 270px;
+}
+
+.information_items1 {
+  width: 350px;
+  margin-right: 20px;
+  padding: 36px;
+}
+
+.information_items1 p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+
+.information_items1 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.information_items1 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+
+
+
+.information__items p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+
+}
+
+.information__items h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+
+}
+
+.information__items h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+
+
+.information__items:first-child {
+  display: block;
+  float: left;
+  margin-left: 100px;
+  padding-right: 34px;
+  text-align: right;
+}
+
+.second_section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin-top: 40px;
+
+
+}
+
+.imgs2 {
+  align-self: center;
+}
+
+
+
+.information__items:nth-child(4) {
+  display: block;
+  float: left;
+  margin-left: 110px;
+  margin-top:
+
+
+}
+
+.section3 {
+  margin-top: 85px;
+  margin-left: 10px;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin-top: 130px;
+}
+
+
+
+.information__items4 {
+  width: 350px;
+  margin-right: 20px;
+  padding-left: 35px;
+
+
+
+}
+
+.information__items4 p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+
+.information__items4 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.information__items4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+
+
+
+
+
+
+.footers {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+
+  margin-top: 105px;
+  margin-left: 85px;
+  padding: 0;
+  color: #777777;
+  font-size: 14px;
+  width: 300px;
+
+
+
+}
